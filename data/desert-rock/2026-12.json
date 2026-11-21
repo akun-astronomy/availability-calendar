@@ -2,7 +2,7 @@
  "resort": "desert-rock",
  "month": "2026-12",
  "sessions": [
-  "8:30–9:30 PM",
+  "8:00–9:30 PM",
   "9:30–10:30 PM",
   "10:30–11:30 PM",
   "11:30 PM–12:00 AM"
@@ -207,8 +207,8 @@
     "icon": "🌒",
     "lit": 12,
     "note": {
-     "en": "Below horizon",
-     "ar": "تحت الأفق"
+     "en": "Sets 8:29 PM",
+     "ar": "يغيب 8:29 م"
     }
    }
   },
@@ -490,7 +490,7 @@
     "A",
     "A",
     "A",
-    "A"
+    "L"
    ],
    "moon": {
     "icon": "🌖",
@@ -538,8 +538,11 @@
  ],
  "events": [
   {
-   "date": "Wed, Dec 9",
+   "id": "newmoon-20261208-moon",
+   "auto": true,
+   "date": "Tue–Wed, Dec 8–9",
    "days": [
+    8,
     9
    ],
    "title": "New Moon",
@@ -552,17 +555,18 @@
     true
    ],
    "desc": "The darkest nights of the month – the best time for galaxies, nebulae and the Milky Way.",
-   "desc_ar": "أظلم ليالي الشهر – أفضل وقت لرصد المجرات والسدم ودرب التبانة.",
-   "id": "x-20261209-new-moon"
+   "desc_ar": "أظلم ليالي الشهر – أفضل وقت لرصد المجرات والسدم ودرب التبانة."
   },
   {
+   "id": "meteor-20261213-gem",
+   "auto": true,
    "date": "Sun–Mon, Dec 13–14",
    "days": [
     13,
     14
    ],
    "title": "Geminids Meteor Shower (peak)",
-   "title_ar": "ذروة شهب التوأميات (الجوزائيات)",
+   "title_ar": "ذروة شهب التوأميّات (الجوزائيّات)",
    "how": "Naked eye",
    "sessions": [
     true,
@@ -570,34 +574,36 @@
     true,
     true
    ],
-   "desc": "The year's richest meteor shower – bright, slow meteors that increase through the night as Gemini climbs. The thin crescent Moon sets early, leaving dark skies.",
-   "desc_ar": "أغزر زخة شهب في السنة – شهب لامعة وبطيئة يزيد عددها مع ارتفاع كوكبة التوأمين، والهلال يغيب مبكراً فتبقى السماء مظلمة.",
-   "id": "x-20261213-geminids-meteor-shower-peak"
+   "desc": "Geminids: up to ~150 meteors per hour under ideal dark skies – little moonlight to spoil the view. Note: the year's richest shower.",
+   "desc_ar": "شهب التوأميّات (الجوزائيّات): حتى ~150 شهاباً في الساعة في أفضل الظروف – مع ضوء قمر قليل."
   },
   {
+   "id": "fq-20261217-moon",
+   "auto": true,
    "date": "Thu, Dec 17",
    "days": [
     17
    ],
-   "title": "First Quarter Moon near Saturn",
-   "title_ar": "التربيع الأول قرب زحل",
-   "how": "Telescope / naked eye",
+   "title": "First Quarter Moon",
+   "title_ar": "التربيع الأول",
+   "how": "Telescope",
    "sessions": [
     true,
     true,
     true,
-    false
+    true
    ],
-   "desc": "Half-lit Moon – the best night for craters and mountains casting long shadows – with Saturn about 8° away.",
-   "desc_ar": "نصف القمر مضاء – أفضل ليلة لرؤية الفوهات والجبال وظلالها الطويلة – وزحل على بُعد نحو 8° منه.",
-   "id": "x-20261217-first-quarter-moon-near-saturn"
+   "desc": "Half-lit Moon – the best night to see craters and mountains casting long shadows.",
+   "desc_ar": "نصف القمر مضاء – أفضل ليلة لرؤية الفوهات والجبال وظلالها الطويلة."
   },
   {
+   "id": "conj-20261221-thepleiades",
+   "auto": true,
    "date": "Mon, Dec 21",
    "days": [
     21
    ],
-   "title": "Moon passes the Pleiades",
+   "title": "Moon near Pleiades",
    "title_ar": "القمر قرب الثريا",
    "how": "Naked eye / binoculars",
    "sessions": [
@@ -606,11 +612,12 @@
     true,
     true
    ],
-   "desc": "The bright Moon slides within 2–3° of the Pleiades star cluster, with Uranus close by.",
-   "desc_ar": "القمر اللامع يمر على بُعد 2–3° من عنقود الثريا، وأورانوس قريب منهما.",
-   "id": "x-20261221-moon-passes-the-pleiades"
+   "desc": "The Moon passes 2° from the Pleiades – a lovely pairing to the naked eye.",
+   "desc_ar": "يمر القمر على بُعد 2° من الثريا – منظر جميل بالعين المجردة."
   },
   {
+   "id": "season-20261221-winter",
+   "auto": true,
    "date": "Mon, Dec 21",
    "days": [
     21
@@ -619,16 +626,36 @@
    "title_ar": "الانقلاب الشتوي",
    "how": "—",
    "sessions": [
+    false,
+    false,
+    false,
+    true
+   ],
+   "desc": "The longest night of the year. The exact moment is 11:49 PM local time.",
+   "desc_ar": "أطول ليلة في السنة. اللحظة الدقيقة الساعة 11:49 م بالتوقيت المحلي."
+  },
+  {
+   "id": "meteor-20261222-urs",
+   "auto": true,
+   "date": "Tue, Dec 22",
+   "days": [
+    22
+   ],
+   "title": "Ursids Meteor Shower (peak)",
+   "title_ar": "ذروة شهب الدبّيّات",
+   "how": "Naked eye",
+   "sessions": [
     true,
     true,
     true,
     true
    ],
-   "desc": "The longest night of the year. The exact moment of the solstice falls at 11:49 PM, during Session 4.",
-   "desc_ar": "أطول ليلة في السنة. لحظة الانقلاب الشتوي الساعة 11:49 مساءً، أثناء الجلسة الرابعة.",
-   "id": "x-20261221-winter-solstice"
+   "desc": "Ursids: a modest 10 or so meteors per hour at best – but bright moonlight will hide the fainter meteors.",
+   "desc_ar": "شهب الدبّيّات: نحو 10 شهاباً في الساعة في أفضل الظروف – لكن ضوء القمر سيخفي الشهب الخافتة."
   },
   {
+   "id": "full-20261223-moon",
+   "auto": true,
    "date": "Wed–Thu, Dec 23–24",
    "days": [
     23,
@@ -643,27 +670,48 @@
     true,
     true
    ],
-   "desc": "The closest and largest full Moon of 2026 – about 356,700 km from Earth (full at 4:28 AM on Dec 24).",
-   "desc_ar": "أقرب وأكبر بدر في 2026 – على بُعد نحو 356,700 كم من الأرض (يكتمل الساعة 4:28 فجر 24 ديسمبر).",
-   "id": "x-20261223-full-moon-supermoon"
+   "desc": "A full Moon close to Earth – about 356,700 km away – looking slightly bigger and brighter than usual (full at 4:28 AM on Dec 24).",
+   "desc_ar": "بدر قريب من الأرض – على بُعد نحو 356,700 كم – يبدو أكبر وألمع من المعتاد."
   },
   {
+   "id": "conj-20261227-jupiter",
+   "auto": true,
    "date": "Sun, Dec 27",
    "days": [
     27
    ],
-   "title": "Moon, Regulus & Jupiter",
-   "title_ar": "القمر وقلب الأسد والمشتري",
+   "title": "Moon near Jupiter",
+   "title_ar": "القمر قرب المشتري",
    "how": "Naked eye / telescope",
    "sessions": [
     false,
     false,
-    false,
+    true,
     true
    ],
-   "desc": "The rising Moon sits just 1° from Regulus, the heart of Leo, with brilliant Jupiter about 4° away.",
-   "desc_ar": "القمر عند شروقه على بُعد 1° فقط من قلب الأسد، والمشتري اللامع على بُعد نحو 4°.",
-   "id": "x-20261227-moon-regulus-jupiter"
+   "desc": "The Moon passes 3° from Jupiter – a lovely pairing to the naked eye.",
+   "desc_ar": "يمر القمر على بُعد 3° من المشتري – منظر جميل بالعين المجردة."
+  },
+  {
+   "id": "conj-20261227-regulus",
+   "auto": true,
+   "date": "Sun, Dec 27",
+   "days": [
+    27
+   ],
+   "title": "Moon near Regulus",
+   "title_ar": "القمر قرب قلب الأسد",
+   "how": "Naked eye / binoculars",
+   "sessions": [
+    false,
+    false,
+    true,
+    true
+   ],
+   "desc": "The Moon passes about 1° from Regulus – a lovely pairing to the naked eye.",
+   "desc_ar": "يمر القمر على بُعد نحو 1° من قلب الأسد – منظر جميل بالعين المجردة."
   }
- ]
+ ],
+ "generated": true,
+ "generated_at": "2026-11-21T23:01:34Z"
 }

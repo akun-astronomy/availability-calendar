@@ -2,7 +2,7 @@
  "resort": "desert-rock",
  "month": "2026-11",
  "sessions": [
-  "8:30–9:30 PM",
+  "8:00–9:30 PM",
   "9:30–10:30 PM",
   "10:30–11:30 PM",
   "11:30 PM–12:00 AM"
@@ -489,8 +489,8 @@
    "s": [
     "A",
     "A",
-    "A",
-    "A"
+    "L",
+    "L"
    ],
    "moon": {
     "icon": "🌖",
@@ -521,9 +521,11 @@
  ],
  "events": [
   {
-   "id": "x-20261109-new-moon",
-   "date": "Mon, Nov 9",
+   "id": "newmoon-20261108-moon",
+   "auto": true,
+   "date": "Sun–Mon, Nov 8–9",
    "days": [
+    8,
     9
    ],
    "title": "New Moon",
@@ -535,18 +537,18 @@
     true,
     true
    ],
-   "desc": "The darkest nights of the month  the best time for galaxies, nebulae and the Milky Way.",
+   "desc": "The darkest nights of the month – the best time for galaxies, nebulae and the Milky Way.",
    "desc_ar": "أظلم ليالي الشهر – أفضل وقت لرصد المجرات والسدم ودرب التبانة."
   },
   {
-   "id": "x-20261111-northern-taurids-meteor-shower",
-   "date": "Wed–Thu, Nov 11–12",
+   "id": "meteor-20261112-nta",
+   "auto": true,
+   "date": "Thu, Nov 12",
    "days": [
-    11,
     12
    ],
    "title": "Northern Taurids Meteor Shower (peak)",
-   "title_ar": "ذروة شهب الثوريات الشمالية",
+   "title_ar": "ذروة شهب الثوريّات الشمالية",
    "how": "Naked eye",
    "sessions": [
     true,
@@ -554,11 +556,12 @@
     true,
     true
    ],
-   "desc": "A few slow, bright meteors and occasional fireballs per hour, with no moonlight to spoil the view.",
-   "desc_ar": "عدد قليل من الشهب البطيئة اللامعة وكرات نارية أحياناً في الساعة، بدون ضوء قمر يفسد المشهد."
+   "desc": "Northern Taurids: a modest 5 or so meteors per hour at best – little moonlight to spoil the view. Note: slow, bright fireballs.",
+   "desc_ar": "شهب الثوريّات الشمالية: نحو 5 شهاباً في الساعة في أفضل الظروف – مع ضوء قمر قليل."
   },
   {
-   "id": "x-20261117-first-quarter-moon",
+   "id": "fq-20261117-moon",
+   "auto": true,
    "date": "Tue, Nov 17",
    "days": [
     17
@@ -570,19 +573,39 @@
     true,
     true,
     true,
-    true
+    false
    ],
    "desc": "Half-lit Moon – the best night to see craters and mountains casting long shadows.",
    "desc_ar": "نصف القمر مضاء – أفضل ليلة لرؤية الفوهات والجبال وظلالها الطويلة."
   },
   {
-   "id": "x-20261120-moon-close-to-saturn",
+   "id": "meteor-20261117-leo",
+   "auto": true,
+   "date": "Tue, Nov 17",
+   "days": [
+    17
+   ],
+   "title": "Leonids Meteor Shower (peak)",
+   "title_ar": "ذروة شهب الأسديّات",
+   "how": "Naked eye",
+   "sessions": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "desc": "Leonids: a modest 15 or so meteors per hour at best – but bright moonlight will hide the fainter meteors.",
+   "desc_ar": "شهب الأسديّات: نحو 15 شهاباً في الساعة في أفضل الظروف – لكن ضوء القمر سيخفي الشهب الخافتة."
+  },
+  {
+   "id": "conj-20261120-saturn",
+   "auto": true,
    "date": "Fri, Nov 20",
    "days": [
     20
    ],
-   "title": "Moon close to Saturn",
-   "title_ar": "القمر وزحل",
+   "title": "Moon near Saturn",
+   "title_ar": "القمر قرب زحل",
    "how": "Naked eye / telescope",
    "sessions": [
     true,
@@ -590,35 +613,37 @@
     true,
     true
    ],
-   "desc": "The bright Moon and Saturn sit close together high in the sky.",
-   "desc_ar": "القمر اللامع وزحل متقاربان عالياً في السماء."
+   "desc": "The Moon passes 6° from Saturn – a lovely pairing to the naked eye.",
+   "desc_ar": "يمر القمر على بُعد 6° من زحل – منظر جميل بالعين المجردة."
   },
   {
-   "id": "x-20261124-full-moon-near-the-pleiades",
+   "id": "full-20261124-moon",
+   "auto": true,
    "date": "Tue, Nov 24",
    "days": [
     24
    ],
-   "title": "Full moon near the Pleiades",
-   "title_ar": "البدر قرب الثريا",
-   "how": "Naked eye / binoculars",
+   "title": "Full Moon",
+   "title_ar": "البدر",
+   "how": "Naked eye / telescope",
    "sessions": [
     true,
     true,
     true,
     true
    ],
-   "desc": "A full Moon close to Earth, shining from the Pleiades star cluster, with Uranus nearby.",
-   "desc_ar": "بدر قريب من الأرض يسطع من عنقود الثريا، وأورانوس قريب منهما."
+   "desc": "The whole Moon lit – bright and beautiful to the eye; the telescope shows the bright ray craters.",
+   "desc_ar": "القمر مكتمل الإضاءة – منظر جميل بالعين المجردة، ويُظهر التلسكوب الفوهات الشعاعية اللامعة."
   },
   {
-   "id": "x-20261125-uranus-at-opposition",
+   "id": "opp-20261125-uranus",
+   "auto": true,
    "date": "Wed, Nov 25",
    "days": [
     25
    ],
    "title": "Uranus at Opposition",
-   "title_ar": "أورانوس  في التقابل",
+   "title_ar": "أورانوس في التقابل",
    "how": "Telescope",
    "sessions": [
     true,
@@ -628,6 +653,27 @@
    ],
    "desc": "Uranus is at its closest and brightest of the year and visible all night.",
    "desc_ar": "أورانوس في أقرب وألمع حالاته هذا العام، ويُرى طوال الليل."
+  },
+  {
+   "id": "conj-20261128-thebeehivecluster",
+   "auto": true,
+   "date": "Sat, Nov 28",
+   "days": [
+    28
+   ],
+   "title": "Moon near Beehive Cluster",
+   "title_ar": "القمر قرب عنقود خلية النحل",
+   "how": "Naked eye / binoculars",
+   "sessions": [
+    false,
+    false,
+    true,
+    true
+   ],
+   "desc": "The Moon passes about 1° from the Beehive Cluster – a lovely pairing to the naked eye.",
+   "desc_ar": "يمر القمر على بُعد نحو 1° من عنقود خلية النحل – منظر جميل بالعين المجردة."
   }
- ]
+ ],
+ "generated": true,
+ "generated_at": "2026-11-21T23:01:33Z"
 }

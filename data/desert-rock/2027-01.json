@@ -2,7 +2,7 @@
  "resort": "desert-rock",
  "month": "2027-01",
  "sessions": [
-  "8:30–9:30 PM",
+  "8:00–9:30 PM",
   "9:30–10:30 PM",
   "10:30–11:30 PM",
   "11:30 PM–12:00 AM"
@@ -173,8 +173,8 @@
     "icon": "🌒",
     "lit": 8,
     "note": {
-     "en": "Below horizon",
-     "ar": "تحت الأفق"
+     "en": "Sets 8:12 PM",
+     "ar": "يغيب 8:12 م"
     }
    }
   },
@@ -188,7 +188,7 @@
    ],
    "moon": {
     "icon": "🌒",
-    "lit": 14,
+    "lit": 13,
     "note": {
      "en": "Sets 9:05 PM",
      "ar": "يغيب 9:05 م"
@@ -256,7 +256,7 @@
    ],
    "moon": {
     "icon": "🌓",
-    "lit": 50,
+    "lit": 49,
     "note": {
      "en": "Up all evening",
      "ar": "ظاهر طوال السهرة"
@@ -341,7 +341,7 @@
    ],
    "moon": {
     "icon": "🌔",
-    "lit": 96,
+    "lit": 95,
     "note": {
      "en": "Up all evening",
      "ar": "ظاهر طوال السهرة"
@@ -411,8 +411,8 @@
     "icon": "🌖",
     "lit": 93,
     "note": {
-     "en": "Up all evening",
-     "ar": "ظاهر طوال السهرة"
+     "en": "Rises 8:27 PM",
+     "ar": "يشرق 8:27 م"
     }
    }
   },
@@ -693,5 +693,5 @@
   }
  ],
  "generated": true,
- "generated_at": "2026-11-20T14:47:13Z"
+ "generated_at": "2026-11-21T23:01:34Z"
 }
