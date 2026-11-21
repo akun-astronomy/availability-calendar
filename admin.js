@@ -70,8 +70,8 @@
     const r = await fetch(`https://api.github.com/repos/${c.repo}`, { headers: { Authorization: `Bearer ${c.token}`, Accept: 'application/vnd.github+json' } });
     if (r.status === 401) throw new Error('مفتاح الوصول غير صالح');
     if (r.status === 404) throw new Error('المستودع غير موجود أو المفتاح لا يملك صلاحية عليه');
-    if (!r.ok) throw new Error('GitHub ' + r.status);
-    const j = await r.json(); if (j.permissions && !j.permissions.push) throw new Error('المفتاح لا يملك صلاحية الكتابة (Contents: Read and write)');
+    if (!r.ok) { let m = ''; try { m = (await r.json()).message || ''; } catch {} throw new Error('GitHub ' + r.status + (m ? ' — ' + m : '')); }
+    const j = await r.json(); if (j.permissions && !j.permissions.push) throw new Error('المفتاح لا يملك صلاحية الكتابة — عدّل المفتاح وأضف Contents: Read and write');
   }
   function guessRepo() {
     const h = location.hostname; if (!h.endsWith('.github.io')) return '';
