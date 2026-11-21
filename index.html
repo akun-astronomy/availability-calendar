@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>أكون | جدول الإتاحة — AKUN Availability</title>
+<meta name="description" content="AKUN Astronomy — resort availability calendar">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#" id="homeLink"><img src="assets/logo.png" alt="AKUN أكون"></a>
+    <div class="top-title" data-i18n="siteTitle">جدول الإتاحة</div>
+    <a class="lang edit-link" href="admin.html" data-i18n="edit">تعديل</a>
+    <button class="lang" id="langBtn" type="button">EN</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- LANDING -->
+  <section class="hero" id="hero">
+    <img class="hero-logo" src="assets/logo.png" alt="AKUN أكون">
+    <h1 data-i18n="heroTitle">جدول الإتاحة</h1>
+    <p class="muted" data-i18n="heroSub">اختر المنتجع لعرض جدول جلسات الفلك الشهري</p>
+    <button class="pick-btn" id="pickBtn" type="button" aria-expanded="false" aria-controls="allResorts">
+      <span data-i18n="pick">اختر المنتجع</span><i aria-hidden="true">⌄</i>
+    </button>
+    <div class="resort-cards" id="allResorts" hidden></div>
+  </section>
+
+  <!-- RESORT VIEW -->
+  <section id="view" hidden>
+    <div class="resort-head">
+      <div>
+        <div class="eyebrow" id="rVenue"></div>
+        <h2 id="rName"></h2>
+        <div class="meta" id="rMeta"></div>
+      </div>
+      <div class="month-nav">
+        <button class="icon-btn" id="prevM" type="button" aria-label="previous month">‹</button>
+        <div class="month-label" id="mLabel"></div>
+        <button class="icon-btn" id="nextM" type="button" aria-label="next month">›</button>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <div class="stats" id="stats"></div>
+      <div class="seg" role="tablist">
+        <button type="button" data-v="cal" class="on" data-i18n="viewCal">تقويم</button>
+        <button type="button" data-v="list" data-i18n="viewList">قائمة</button>
+      </div>
+    </div>
+
+    <div class="legend" id="legend"></div>
+
+    <div id="cal" class="cal"></div>
+    <div id="list" class="list" hidden></div>
+
+    <div class="grid2">
+      <section class="card" id="eventsCard">
+        <h3 data-i18n="events">أحداث فلكية خلال الجلسات</h3>
+        <div id="events"></div>
+      </section>
+      <div class="stack">
+      <section class="card info" id="infoCard" hidden>
+        <div class="offer" id="offer" hidden></div>
+        <h3 data-i18n="details">تفاصيل التجربة</h3>
+        <div id="info"></div>
+      </section>
+      <section class="card">
+        <h3 data-i18n="booking">متطلبات الحجز</h3>
+        <p class="muted small" data-i18n="bookingSub">كل حجز مؤكد يجب أن يتضمن:</p>
+        <ul class="req" id="booking"></ul>
+        <p class="book-note" id="bookNote" hidden></p>
+      </section>
+      </div>
+    </div>
+  </section>
+
+  <p class="empty" id="noData" hidden></p>
+</main>
+
+<!-- DAY DRAWER -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-modal="true" role="dialog">
+  <button class="icon-btn close" id="closeD" type="button" aria-label="close">✕</button>
+  <div id="dBody"></div>
+</aside>
+
+<footer class="foot wrap"><span>AKUN Astronomy</span><span class="muted" id="updated"></span></footer>
+<script src="merge.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

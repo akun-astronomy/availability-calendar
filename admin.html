@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>أكون | تعديل جدول الإتاحة</title>
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="./"><img src="assets/logo.png" alt="AKUN أكون"></a>
+    <div class="top-title">تعديل الجدول</div>
+    <span class="conn-pill" id="connPill" hidden></span>
+    <button class="lang" id="logoutBtn" type="button" hidden>تسجيل خروج</button>
+    <a class="lang" href="./">الموقع ↗</a>
+  </div>
+</header>
+
+<!-- LOGIN -->
+<section class="auth-screen" id="loginScreen" hidden>
+  <form class="auth-card" id="loginForm" autocomplete="on">
+    <img src="assets/logo.png" alt="" class="auth-logo">
+    <h1>تسجيل الدخول</h1>
+    <p class="muted small">للتعديل على جدول الإتاحة</p>
+    <label>الإيميل<input id="lEmail" type="email" dir="ltr" required autocomplete="username" placeholder="name@akun.com"></label>
+    <label>الرمز السري<input id="lPass" type="password" dir="ltr" required autocomplete="current-password"></label>
+    <button class="btn primary big" type="submit" id="loginBtn">دخول</button>
+    <p class="small" id="loginMsg"></p>
+  </form>
+</section>
+
+<!-- FIRST-TIME SETUP -->
+<section class="auth-screen" id="setupScreen" hidden>
+  <form class="auth-card wide" id="setupForm">
+    <h1>ربط الموقع بـ GitHub <small class="muted">(مرة واحدة فقط)</small></h1>
+    <p class="muted small">ليُحفظ تعديلك ويظهر لكل من يستخدم الموقع، يحتاج الموقع مفتاح وصول لمستودعه. يُحفظ المفتاح مشفّراً برمزك السري، فلن تحتاج إدخاله مرة أخرى من أي جهاز.</p>
+    <label>المستودع <small>owner/repo</small><input id="sRepo" dir="ltr" required placeholder="username/akun-availability"></label>
+    <label>الفرع <small>branch</small><input id="sBranch" dir="ltr" value="main"></label>
+    <label>مفتاح الوصول <small>Fine-grained token — Contents + Actions: Read and write</small><input id="sToken" type="password" dir="ltr" required placeholder="github_pat_…"></label>
+    <button class="btn primary big" type="submit" id="setupBtn">ربط وحفظ</button>
+    <p class="small" id="setupMsg"></p>
+  </form>
+</section>
+
+<main class="wrap admin" id="adminMain" hidden>
+  <!-- ACCOUNT -->
+  <details class="card connect" id="accountBox">
+    <summary><span>👤 الحساب والمستخدمين</span><span class="muted small" id="accSummary"></span></summary>
+    <div class="acc-grid">
+      <form id="pwForm" class="mini-form">
+        <h4>تغيير الرمز السري</h4>
+        <label>الرمز الحالي<input id="pwOld" type="password" dir="ltr" required autocomplete="current-password"></label>
+        <label>الرمز الجديد<input id="pwNew" type="password" dir="ltr" required minlength="8" autocomplete="new-password"></label>
+        <label>تأكيد الرمز الجديد<input id="pwNew2" type="password" dir="ltr" required minlength="8" autocomplete="new-password"></label>
+        <button class="btn primary" type="submit">حفظ الرمز</button>
+      </form>
+      <div class="mini-form">
+        <h4>المستخدمين</h4>
+        <div id="userList"></div>
+        <form id="addUserForm" class="add-user">
+          <input id="uEmail" type="email" dir="ltr" required placeholder="email@akun.com">
+          <input id="uPass" type="password" dir="ltr" required minlength="8" placeholder="رمز سري (8 أحرف على الأقل)">
+          <button class="btn ghost" type="submit">+ إضافة مستخدم</button>
+        </form>
+      </div>
+    </div>
+  </details>
+
+  <!-- PICKER -->
+  <section class="picker">
+    <label>المنتجع<select id="resortSel"></select></label>
+    <label>الشهر<select id="monthSel"></select></label>
+    <button class="btn ghost" id="timesBtn" type="button">⏰ أوقات الجلسات</button>
+    <button class="btn ghost" id="genBtn" type="button" title="تشغيل المولّد التلقائي على GitHub">⚙︎ توليد شهر</button>
+  </section>
+
+  <!-- SESSION TIMES EDITOR -->
+  <section class="card times-box" id="timesBox" hidden>
+    <h3>أوقات الجلسات وأيام التشغيل — <span id="tResort"></span></h3>
+    <p class="muted small">يطبَّق على الشهر الحالي والأشهر القادمة. التعديلات اليدوية على الأيام تبقى كما هي. لتغيير وقت يوم واحد فقط، اضغط على الجلسة في التقويم.</p>
+    <div id="tRows"></div>
+    <button class="btn ghost" id="tAdd" type="button">+ إضافة جلسة</button>
+    <fieldset style="margin-top:16px"><legend>أيام التشغيل</legend><div id="tDays" class="ses-chk"></div></fieldset>
+    <div class="row-btns"><button class="btn primary" id="tSave" type="button">حفظ الأوقات ونشرها</button><button class="btn ghost" id="tCancel" type="button">إلغاء</button><span class="small" id="tMsg"></span></div>
+  </section>
+
+  <div class="gen-box card" id="genBox" hidden>
+    <label>الشهر المطلوب<input id="genMonth" type="month" dir="ltr"></label>
+    <label class="chk"><input type="checkbox" id="genForce"> إعادة التوليد إن كان موجوداً (التعديلات اليدوية لا تتأثر)</label>
+    <div class="row-btns"><button class="btn primary" id="genGo" type="button">تشغيل التوليد</button><span class="small" id="genMsg"></span></div>
+  </div>
+
+  <div class="hint muted small">اضغط على أي جلسة لتغيير نوعها أو اسمها أو وقتها في ذلك اليوم. الخانات المعدّلة عليها إطار ونقطة. اضغط على رقم اليوم لخيارات اليوم كاملاً.</div>
+  <div class="legend" id="legend"></div>
+  <div id="cal" class="cal admin-cal"></div>
+
+  <!-- EVENTS -->
+  <section class="card" style="margin-top:24px">
+    <div class="ev-head">
+      <h3>الفعاليات والأحداث</h3>
+      <button class="btn primary" id="addEvBtn" type="button">+ إضافة فعالية</button>
+    </div>
+    <div id="evList"></div>
+  </section>
+</main>
+
+<!-- SAVE BAR -->
+<div class="savebar" id="saveBar" hidden>
+  <div class="wrap savebar-in">
+    <span id="dirtyTxt"></span>
+    <div class="row-btns">
+      <button class="btn ghost" id="revertBtn" type="button">تراجع</button>
+      <button class="btn primary" id="saveBtn" type="button">حفظ ونشر</button>
+    </div>
+  </div>
+</div>
+
+<div class="menu" id="slotMenu" hidden></div>
+
+<!-- EVENT DIALOG -->
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="evDlg" hidden role="dialog" aria-modal="true">
+  <button class="icon-btn close" id="evClose" type="button" aria-label="إغلاق">✕</button>
+  <h3 id="evDlgTitle">فعالية جديدة</h3>
+  <form id="evForm" class="evform">
+    <div class="two"><label>من يوم<input id="fFrom" type="number" min="1" max="31" required></label><label>إلى يوم<input id="fTo" type="number" min="1" max="31"></label></div>
+    <label>العنوان بالعربي<input id="fTitleAr" required></label>
+    <label>العنوان بالإنجليزي<input id="fTitle" dir="ltr"></label>
+    <label>الوصف بالعربي<textarea id="fDescAr" rows="3"></textarea></label>
+    <label>الوصف بالإنجليزي<textarea id="fDesc" rows="3" dir="ltr"></textarea></label>
+    <label>طريقة المشاهدة<input id="fHow" placeholder="Naked eye / telescope" dir="ltr"></label>
+    <fieldset><legend>لون الحدث</legend><div id="fColor" class="swatches"></div></fieldset>
+    <fieldset><legend>الجلسات</legend><div id="fSes" class="ses-chk"></div></fieldset>
+    <div class="row-btns"><button class="btn primary" type="submit">حفظ الفعالية</button><button class="btn danger" id="fDel" type="button" hidden>حذف</button></div>
+  </form>
+</aside>
+
+<div class="toast" id="toast" hidden></div>
+<script src="merge.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

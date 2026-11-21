@@ -1,0 +1,268 @@
+{
+  "resorts": [
+    {
+      "id": "desert-rock",
+      "name": {
+        "en": "Desert Rock",
+        "ar": "ديزرت روك"
+      },
+      "aliases": [
+        "desert rock",
+        "ديزرت روك",
+        "الصخرة",
+        "desertrock",
+        "astronomy center"
+      ],
+      "venue": {
+        "en": "Desert Rock Astronomy Center",
+        "ar": "مركز ديزرت روك الفلكي"
+      },
+      "capacity": 10,
+      "lat": 25.5,
+      "lon": 37.7,
+      "sessions": [
+        "8:30–9:30 PM",
+        "9:30–10:30 PM",
+        "10:30–11:30 PM",
+        "11:30 PM–12:00 AM"
+      ],
+      "months": [
+        "2026-11",
+        "2026-12",
+        "2027-01"
+      ],
+      "order": 1,
+      "open_days": [],
+      "tagline": {
+        "en": "Every night",
+        "ar": "يومياً"
+      },
+      "booking": {
+        "en": [
+          "Primary Guest’s Name",
+          "Pax",
+          "Language",
+          "Selected Experience Duration (30 Min / 1H)",
+          "Astronomy Experience"
+        ],
+        "ar": [
+          "اسم الضيف الرئيسي",
+          "عدد الأشخاص",
+          "اللغة",
+          "مدة التجربة (30 دقيقة / ساعة)",
+          "نوع التجربة الفلكية"
+        ]
+      }
+    },
+    {
+      "id": "six-senses",
+      "order": 2,
+      "name": {
+        "en": "Six Senses",
+        "ar": "سكس سنسز"
+      },
+      "aliases": [
+        "six senses",
+        "sixsenses",
+        "southern dunes",
+        "سكس سنسز",
+        "سكس سينسيز",
+        "سيكس سينسز",
+        "الكثبان الجنوبية",
+        "tent"
+      ],
+      "venue": {
+        "en": "Six Senses Southern Dunes – Tent",
+        "ar": "سكس سنسز الكثبان الجنوبية – الخيمة"
+      },
+      "capacity": 10,
+      "lat": 25.6,
+      "lon": 37.5,
+      "open_days": [
+        "Mon",
+        "Wed",
+        "Thu",
+        "Fri"
+      ],
+      "tagline": {
+        "en": "Mon · Wed · Thu · Fri",
+        "ar": "الاثنين · الأربعاء · الخميس · الجمعة"
+      },
+      "sessions": [
+        "8:00–9:00 PM",
+        "9:30–10:30 PM"
+      ],
+      "booking": {
+        "en": [
+          "Guest’s Name",
+          "Pax",
+          "Guest Age",
+          "Activity",
+          "Date",
+          "Time",
+          "Language",
+          "Villa Number"
+        ],
+        "ar": [
+          "اسم الضيف",
+          "عدد الأشخاص",
+          "عمر الضيف",
+          "النشاط",
+          "التاريخ",
+          "الوقت",
+          "اللغة",
+          "رقم الفيلا"
+        ]
+      },
+      "booking_note": {
+        "en": "Please book via AKUN.Support@Akun.com",
+        "ar": "يتم الحجز عبر AKUN.Support@Akun.com"
+      },
+      "months": [
+        "2026-11",
+        "2026-12",
+        "2027-01"
+      ]
+    },
+    {
+      "id": "st-regis",
+      "order": 3,
+      "name": {
+        "en": "St. Regis",
+        "ar": "سانت ريجيس"
+      },
+      "aliases": [
+        "st regis",
+        "st. regis",
+        "saint regis",
+        "stregis",
+        "سانت ريجيس",
+        "سانت ريجس",
+        "ريجيس"
+      ],
+      "venue": {
+        "en": "The St. Regis Red Sea Resort – Public Beach",
+        "ar": "منتجع سانت ريجيس البحر الأحمر – الشاطئ العام"
+      },
+      "capacity": 10,
+      "lat": 25.5,
+      "lon": 36.9,
+      "open_days": [
+        "Fri"
+      ],
+      "tagline": {
+        "en": "Fridays only",
+        "ar": "كل جمعة"
+      },
+      "sessions": [
+        "7:30–8:30 PM",
+        "9:00–10:00 PM"
+      ],
+      "booking": {
+        "en": [
+          "Guest’s Name",
+          "Pax",
+          "Guest Age",
+          "Activity",
+          "Date",
+          "Time",
+          "Language",
+          "Villa Number"
+        ],
+        "ar": [
+          "اسم الضيف",
+          "عدد الأشخاص",
+          "عمر الضيف",
+          "النشاط",
+          "التاريخ",
+          "الوقت",
+          "اللغة",
+          "رقم الفيلا"
+        ]
+      },
+      "booking_note": {
+        "en": "Booking is through your villa host.",
+        "ar": "الحجز يكون عن طريق مضيف الفيلا الخاص بكم."
+      },
+      "months": [
+        "2026-11",
+        "2026-12",
+        "2027-01"
+      ],
+      "session_labels": {
+        "ar": [
+          "الجلسة العربية",
+          "الجلسة الإنجليزية"
+        ],
+        "en": [
+          "Arabic session",
+          "English session"
+        ]
+      },
+      "location": {
+        "en": "Opposite the reception lobby – public beach",
+        "ar": "مقابل ردهة الاستقبال – الشاطئ العام"
+      },
+      "prices": [
+        {
+          "label": {
+            "en": "Adults",
+            "ar": "البالغون"
+          },
+          "price": 420,
+          "was": 700
+        },
+        {
+          "label": {
+            "en": "Children (8–12 yrs)",
+            "ar": "الأطفال (8–12 سنة)"
+          },
+          "price": 240,
+          "was": 400
+        }
+      ],
+      "currency": {
+        "en": "SAR",
+        "ar": "ريال"
+      },
+      "offer": {
+        "en": "Winter offer – 40% off",
+        "ar": "عرض الشتاء – خصم 40%"
+      },
+      "deadline": {
+        "en": "Booking deadline: 4:00 PM",
+        "ar": "آخر موعد للحجز: 4:00 م"
+      },
+      "notes": {
+        "en": [
+          "Please arrive on time so you don’t miss any part of the experience.",
+          "The experience depends on the weather – a session may be cancelled if conditions are not suitable."
+        ],
+        "ar": [
+          "يرجى الحضور في الوقت المحدد حتى لا تفوتكم أي لحظة من التجربة.",
+          "تعتمد التجربة على حالة الطقس – قد تُلغى الجلسة إذا لم تكن الظروف مناسبة."
+        ]
+      }
+    }
+  ],
+  "experiences": {
+    "A": {
+      "en": "Arabian Astronomy",
+      "ar": "الفلك العربي",
+      "desc_en": "Moon down – dark sky for stars, galaxies and nebulae",
+      "desc_ar": "القمر غائب – سماء مظلمة للنجوم والمجرات والسدم"
+    },
+    "L": {
+      "en": "Lunar Night",
+      "ar": "ليلة القمر",
+      "desc_en": "Moon up and bright – the Moon is the star of the show",
+      "desc_ar": "القمر ظاهر ومضيء – القمر هو نجم الجلسة"
+    },
+    "X": {
+      "en": "Not Available",
+      "ar": "غير متاح",
+      "desc_en": "No session",
+      "desc_ar": "لا توجد جلسة"
+    }
+  }
+}

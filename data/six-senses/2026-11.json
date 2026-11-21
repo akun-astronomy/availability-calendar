@@ -1,0 +1,584 @@
+{
+ "resort": "six-senses",
+ "month": "2026-11",
+ "sessions": [
+  "8:00–9:00 PM",
+  "9:30–10:30 PM"
+ ],
+ "days": [
+  {
+   "d": 1,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌗",
+    "lit": 51,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 2,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌗",
+    "lit": 40,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 3,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 30,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 4,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 20,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 5,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 13,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 6,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 7,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 7,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌑",
+    "lit": 3,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 8,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌑",
+    "lit": 0,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 9,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌑",
+    "lit": 0,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 10,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌑",
+    "lit": 2,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 11,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 6,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 12,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 11,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 13,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 18,
+    "note": {
+     "en": "Sets 8:46 PM",
+     "ar": "يغيب 8:46 م"
+    }
+   }
+  },
+  {
+   "d": 14,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 25,
+    "note": {
+     "en": "Sets 9:41 PM",
+     "ar": "يغيب 9:41 م"
+    }
+   }
+  },
+  {
+   "d": 15,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 34,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 16,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌓",
+    "lit": 43,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 17,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌓",
+    "lit": 53,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 18,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 63,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 19,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 72,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 20,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 81,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 21,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 89,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 22,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 95,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 23,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌕",
+    "lit": 99,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 24,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌕",
+    "lit": 100,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 25,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌕",
+    "lit": 98,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 26,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 93,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 27,
+   "s": [
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 86,
+    "note": {
+     "en": "Rises 8:40 PM",
+     "ar": "يشرق 8:40 م"
+    }
+   }
+  },
+  {
+   "d": 28,
+   "s": [
+    "A",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 77,
+    "note": {
+     "en": "Rises 9:50 PM",
+     "ar": "يشرق 9:50 م"
+    }
+   }
+  },
+  {
+   "d": 29,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 66,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 30,
+   "s": [
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌗",
+    "lit": 56,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  }
+ ],
+ "events": [
+  {
+   "id": "newmoon-20261108-moon",
+   "auto": true,
+   "date": "Sun–Mon, Nov 8–9",
+   "days": [
+    8,
+    9
+   ],
+   "title": "New Moon",
+   "title_ar": "المحاق",
+   "how": "—",
+   "sessions": [
+    true,
+    true
+   ],
+   "desc": "The darkest nights of the month – the best time for galaxies, nebulae and the Milky Way.",
+   "desc_ar": "أظلم ليالي الشهر – أفضل وقت لرصد المجرات والسدم ودرب التبانة."
+  },
+  {
+   "id": "meteor-20261112-nta",
+   "auto": true,
+   "date": "Thu, Nov 12",
+   "days": [
+    12
+   ],
+   "title": "Northern Taurids Meteor Shower (peak)",
+   "title_ar": "ذروة شهب الثوريّات الشمالية",
+   "how": "Naked eye",
+   "sessions": [
+    true,
+    true
+   ],
+   "desc": "Northern Taurids: a modest 5 or so meteors per hour at best – little moonlight to spoil the view. Note: slow, bright fireballs.",
+   "desc_ar": "شهب الثوريّات الشمالية: نحو 5 شهاباً في الساعة في أفضل الظروف – مع ضوء قمر قليل."
+  },
+  {
+   "id": "fq-20261117-moon",
+   "auto": true,
+   "date": "Tue, Nov 17",
+   "days": [
+    17
+   ],
+   "title": "First Quarter Moon",
+   "title_ar": "التربيع الأول",
+   "how": "Telescope",
+   "sessions": [
+    true,
+    true
+   ],
+   "desc": "Half-lit Moon – the best night to see craters and mountains casting long shadows.",
+   "desc_ar": "نصف القمر مضاء – أفضل ليلة لرؤية الفوهات والجبال وظلالها الطويلة."
+  },
+  {
+   "id": "meteor-20261117-leo",
+   "auto": true,
+   "date": "Tue, Nov 17",
+   "days": [
+    17
+   ],
+   "title": "Leonids Meteor Shower (peak)",
+   "title_ar": "ذروة شهب الأسديّات",
+   "how": "Naked eye",
+   "sessions": [
+    true,
+    true
+   ],
+   "desc": "Leonids: a modest 15 or so meteors per hour at best – but bright moonlight will hide the fainter meteors.",
+   "desc_ar": "شهب الأسديّات: نحو 15 شهاباً في الساعة في أفضل الظروف – لكن ضوء القمر سيخفي الشهب الخافتة."
+  },
+  {
+   "id": "conj-20261120-saturn",
+   "auto": true,
+   "date": "Fri, Nov 20",
+   "days": [
+    20
+   ],
+   "title": "Moon near Saturn",
+   "title_ar": "القمر قرب زحل",
+   "how": "Naked eye / telescope",
+   "sessions": [
+    true,
+    true
+   ],
+   "desc": "The Moon passes 6° from Saturn – a lovely pairing to the naked eye.",
+   "desc_ar": "يمر القمر على بُعد 6° من زحل – منظر جميل بالعين المجردة."
+  },
+  {
+   "id": "full-20261124-moon",
+   "auto": true,
+   "date": "Tue, Nov 24",
+   "days": [
+    24
+   ],
+   "title": "Full Moon",
+   "title_ar": "البدر",
+   "how": "Naked eye / telescope",
+   "sessions": [
+    true,
+    true
+   ],
+   "desc": "The whole Moon lit – bright and beautiful to the eye; the telescope shows the bright ray craters.",
+   "desc_ar": "القمر مكتمل الإضاءة – منظر جميل بالعين المجردة، ويُظهر التلسكوب الفوهات الشعاعية اللامعة."
+  },
+  {
+   "id": "opp-20261125-uranus",
+   "auto": true,
+   "date": "Wed, Nov 25",
+   "days": [
+    25
+   ],
+   "title": "Uranus at Opposition",
+   "title_ar": "أورانوس في التقابل",
+   "how": "Telescope",
+   "sessions": [
+    true,
+    true
+   ],
+   "desc": "Uranus is at its closest and brightest of the year and visible all night.",
+   "desc_ar": "أورانوس في أقرب وألمع حالاته هذا العام، ويُرى طوال الليل."
+  }
+ ],
+ "generated": true,
+ "generated_at": "2026-11-20T16:48:55Z"
+}

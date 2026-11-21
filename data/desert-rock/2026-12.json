@@ -1,0 +1,669 @@
+{
+ "resort": "desert-rock",
+ "month": "2026-12",
+ "sessions": [
+  "8:30–9:30 PM",
+  "9:30–10:30 PM",
+  "10:30–11:30 PM",
+  "11:30 PM–12:00 AM"
+ ],
+ "days": [
+  {
+   "d": 1,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌗",
+    "lit": 44,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 2,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 34,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 3,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 25,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 4,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 16,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 5,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 10,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 6,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 5,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 7,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌑",
+    "lit": 2,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 8,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌑",
+    "lit": 0,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 9,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌑",
+    "lit": 1,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 10,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌑",
+    "lit": 3,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 11,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 7,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 12,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 12,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 13,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 19,
+    "note": {
+     "en": "Sets 9:23 PM",
+     "ar": "يغيب 9:23 م"
+    }
+   }
+  },
+  {
+   "d": 14,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 27,
+    "note": {
+     "en": "Sets 10:17 PM",
+     "ar": "يغيب 10:17 م"
+    }
+   }
+  },
+  {
+   "d": 15,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌒",
+    "lit": 36,
+    "note": {
+     "en": "Sets 11:10 PM",
+     "ar": "يغيب 11:10 م"
+    }
+   }
+  },
+  {
+   "d": 16,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌓",
+    "lit": 46,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 17,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌓",
+    "lit": 56,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 18,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 66,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 19,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 76,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 20,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 85,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 21,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌔",
+    "lit": 92,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 22,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌕",
+    "lit": 97,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 23,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌕",
+    "lit": 100,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 24,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌕",
+    "lit": 99,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 25,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 95,
+    "note": {
+     "en": "Up all evening",
+     "ar": "ظاهر طوال السهرة"
+    }
+   }
+  },
+  {
+   "d": 26,
+   "s": [
+    "L",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 89,
+    "note": {
+     "en": "Rises 8:38 PM",
+     "ar": "يشرق 8:38 م"
+    }
+   }
+  },
+  {
+   "d": 27,
+   "s": [
+    "A",
+    "L",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 81,
+    "note": {
+     "en": "Rises 9:44 PM",
+     "ar": "يشرق 9:44 م"
+    }
+   }
+  },
+  {
+   "d": 28,
+   "s": [
+    "A",
+    "A",
+    "L",
+    "L"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 71,
+    "note": {
+     "en": "Rises 10:46 PM",
+     "ar": "يشرق 10:46 م"
+    }
+   }
+  },
+  {
+   "d": 29,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌖",
+    "lit": 61,
+    "note": {
+     "en": "Rises 11:45 PM",
+     "ar": "يشرق 11:45 م"
+    }
+   }
+  },
+  {
+   "d": 30,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌗",
+    "lit": 50,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  },
+  {
+   "d": 31,
+   "s": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "moon": {
+    "icon": "🌘",
+    "lit": 40,
+    "note": {
+     "en": "Below horizon",
+     "ar": "تحت الأفق"
+    }
+   }
+  }
+ ],
+ "events": [
+  {
+   "date": "Wed, Dec 9",
+   "days": [
+    9
+   ],
+   "title": "New Moon",
+   "title_ar": "المحاق",
+   "how": "—",
+   "sessions": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "desc": "The darkest nights of the month – the best time for galaxies, nebulae and the Milky Way.",
+   "desc_ar": "أظلم ليالي الشهر – أفضل وقت لرصد المجرات والسدم ودرب التبانة.",
+   "id": "x-20261209-new-moon"
+  },
+  {
+   "date": "Sun–Mon, Dec 13–14",
+   "days": [
+    13,
+    14
+   ],
+   "title": "Geminids Meteor Shower (peak)",
+   "title_ar": "ذروة شهب التوأميات (الجوزائيات)",
+   "how": "Naked eye",
+   "sessions": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "desc": "The year's richest meteor shower – bright, slow meteors that increase through the night as Gemini climbs. The thin crescent Moon sets early, leaving dark skies.",
+   "desc_ar": "أغزر زخة شهب في السنة – شهب لامعة وبطيئة يزيد عددها مع ارتفاع كوكبة التوأمين، والهلال يغيب مبكراً فتبقى السماء مظلمة.",
+   "id": "x-20261213-geminids-meteor-shower-peak"
+  },
+  {
+   "date": "Thu, Dec 17",
+   "days": [
+    17
+   ],
+   "title": "First Quarter Moon near Saturn",
+   "title_ar": "التربيع الأول قرب زحل",
+   "how": "Telescope / naked eye",
+   "sessions": [
+    true,
+    true,
+    true,
+    false
+   ],
+   "desc": "Half-lit Moon – the best night for craters and mountains casting long shadows – with Saturn about 8° away.",
+   "desc_ar": "نصف القمر مضاء – أفضل ليلة لرؤية الفوهات والجبال وظلالها الطويلة – وزحل على بُعد نحو 8° منه.",
+   "id": "x-20261217-first-quarter-moon-near-saturn"
+  },
+  {
+   "date": "Mon, Dec 21",
+   "days": [
+    21
+   ],
+   "title": "Moon passes the Pleiades",
+   "title_ar": "القمر قرب الثريا",
+   "how": "Naked eye / binoculars",
+   "sessions": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "desc": "The bright Moon slides within 2–3° of the Pleiades star cluster, with Uranus close by.",
+   "desc_ar": "القمر اللامع يمر على بُعد 2–3° من عنقود الثريا، وأورانوس قريب منهما.",
+   "id": "x-20261221-moon-passes-the-pleiades"
+  },
+  {
+   "date": "Mon, Dec 21",
+   "days": [
+    21
+   ],
+   "title": "Winter Solstice",
+   "title_ar": "الانقلاب الشتوي",
+   "how": "—",
+   "sessions": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "desc": "The longest night of the year. The exact moment of the solstice falls at 11:49 PM, during Session 4.",
+   "desc_ar": "أطول ليلة في السنة. لحظة الانقلاب الشتوي الساعة 11:49 مساءً، أثناء الجلسة الرابعة.",
+   "id": "x-20261221-winter-solstice"
+  },
+  {
+   "date": "Wed–Thu, Dec 23–24",
+   "days": [
+    23,
+    24
+   ],
+   "title": "Full Moon – Supermoon",
+   "title_ar": "البدر العملاق",
+   "how": "Naked eye / telescope",
+   "sessions": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "desc": "The closest and largest full Moon of 2026 – about 356,700 km from Earth (full at 4:28 AM on Dec 24).",
+   "desc_ar": "أقرب وأكبر بدر في 2026 – على بُعد نحو 356,700 كم من الأرض (يكتمل الساعة 4:28 فجر 24 ديسمبر).",
+   "id": "x-20261223-full-moon-supermoon"
+  },
+  {
+   "date": "Sun, Dec 27",
+   "days": [
+    27
+   ],
+   "title": "Moon, Regulus & Jupiter",
+   "title_ar": "القمر وقلب الأسد والمشتري",
+   "how": "Naked eye / telescope",
+   "sessions": [
+    false,
+    false,
+    false,
+    true
+   ],
+   "desc": "The rising Moon sits just 1° from Regulus, the heart of Leo, with brilliant Jupiter about 4° away.",
+   "desc_ar": "القمر عند شروقه على بُعد 1° فقط من قلب الأسد، والمشتري اللامع على بُعد نحو 4°.",
+   "id": "x-20261227-moon-regulus-jupiter"
+  }
+ ]
+}
