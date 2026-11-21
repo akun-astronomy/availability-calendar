@@ -1,0 +1,83 @@
+# Generates upcoming months automatically, then deploys the site to GitHub Pages.
+name: Generate & deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 3 1 * *"        # 1st of every month, 06:00 Riyadh
+    - cron: "0 3 15 * *"       # mid-month safety run
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Month to generate (YYYY-MM). Empty = current + next 2"
+        required: false
+        default: ""
+      force:
+        description: "Rebuild even if the month exists (manual edits are kept)"
+        required: false
+        default: "false"
+      resort:
+        description: "Only this resort id (empty = all resorts)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install
+        run: pip install -r tools/requirements.txt
+
+      - name: Generate months
+        run: |
+          if [ -n "${{ github.event.inputs.month }}" ]; then
+            ARGS="--month ${{ github.event.inputs.month }}"
+          else
+            ARGS="--ahead 2"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          if [ -n "${{ github.event.inputs.resort }}" ]; then ARGS="$ARGS --resort ${{ github.event.inputs.resort }}"; fi
+          python tools/generate_month.py $ARGS
+
+      - name: Commit generated data
+        run: |
+          git config user.name  "akun-bot"
+          git config user.email "akun-bot@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Nothing new."
+          else
+            git commit -m "Auto-generate availability months"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
